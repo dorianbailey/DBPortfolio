@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cable>
+    
+    <day date="1858-08-25">
+        <heading>August 25.</heading>
+        
+        <messages>
+            <telegram direction="Newfoundland to Valentia">
+                <p>
+                    Persia takes Europa’s passengers and mail.
+                    Great rejoicing everywhere at success of cable.
+                    Bonfires and celebrations reported.
+                    <person>Mr. Eddy</person>, a telegrapher in the States, died to-day.
+                </p>
+                <p>
+                    Pray give some news for <place>New York</place>.
+                </p>
+            </telegram>
+            
+            <telegram direction="Valentia to Newfoundland">
+                <p>
+                    Understand. Sent to <place>London</place> for news.
+                    Meantime take Thomson’s currents.
+                </p>
+            </telegram>
+            
+            <telegram direction="Newfoundland to Valentia">
+                <p>
+                    Splendid sending. We are quite ready.
+                    Signals very weak. Send stronger acid.
+                    Can you receive?
+                </p>
+            </telegram>
+            
+            <telegram direction="Valentia to Newfoundland">
+                <p>
+                    Thomson to McFarlane — Where are the keys to the apparatus-room?
+                </p>
+            </telegram>
+            
+            <telegram direction="Newfoundland to Valentia">
+                <p>
+                    McFarlane to Thomson — Don’t recollect.
+                </p>
+            </telegram>
+        </messages>
+    </day>
+    
+    <day date="1858-08-26">
+        <heading>August 26.</heading>
+        
+        <messages>
+            <telegram direction="Newfoundland to Valentia">
+                <p>
+                    Why don’t you give <signal>finis</signal> when you have done?
+                </p>
+            </telegram>
+            
+            <telegram direction="Valentia to Newfoundland">
+                <p>
+                    We have had storm with thunder.
+                    Cable put to earth for
+                    <time value="01:25">one hour twenty-five minutes</time>.
+                </p>
+            </telegram>
+            
+            <telegram direction="Newfoundland to Valentia">
+                <p>
+                    Can’t read your signals.
+                    Send slower and repeat all.
+                </p>
+            </telegram>
+            
+            <telegram direction="Valentia to Newfoundland">
+                <p>
+                    Try only one galvanometer in circuit.
+                </p>
+            </telegram>
+        </messages>
+    </day>
+    
+</cable>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cableEntries>
+    <entries date="1858-08-18">
+        <heading>August 18.</heading>
+        
+        <summary>
+            <p>Both stations made every exertion to restore communication by alternately sending and putting in instruments to receive. Nothing more was read at <place>Valentia</place>, and not one word in <place>Newfoundland</place> during the whole day.</p>
+        </summary>
+        
+        <details>
+            <p>It is proper to state, however, that from <time value="06:40">6.40 A.M.</time> until <time value="21:08">9.08 P.M.</time>, operations at <place>Valentia</place> prevented the possibility of transmission or reception.</p>
+        </details>
+        
+        <timeline>
+            <event start="06:40" end="12:00">
+                <person who="Mr. Canning">Mr. Canning</person> was engaged in lifting the cable in the harbor.
+            </event>
+            
+            <event start="12:00" end="13:30">
+                Efforts were made to communicate.
+            </event>
+            
+            <event start="13:30" end="21:08">
+                Operations obstructed electrical working.
+            </event>
+        </timeline>
+        
+    </entries>
+</cableEntries>
+
