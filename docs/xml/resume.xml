@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resume>
+  <personalInfo>
+    <name>Dorian Bailey</name>
+    <school>Penn State Behrend</school>
+    <major>Marketing and Management Information Systems</major>
+    <email>dorian@example.com</email>
+  </personalInfo>
+
+  <education>
+    <institution>Penn State Behrend</institution>
+    <degree>Bachelor of Science</degree>
+    <status>Current Student</status>
+  </education>
+
+  <skills>
+    <skill>HTML</skill>
+    <skill>CSS</skill>
+    <skill>Git and GitHub</skill>
+    <skill>Social Media Marketing</skill>
+  </skills>
+
+  <projects>
+    <project>
+      <name>Personal Portfolio Website</name>
+      <description>Built a website using HTML, CSS, and GitHub Pages.</description>
+    </project>
+  </projects>
+</resume>
