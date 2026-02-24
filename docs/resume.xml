@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resume>
+    
+    <personalInfo>
+        <name>Dorian Bailey</name>
+        <school>Penn State Behrend</school>
+        <major>Marketing and Management Information Systems</major>
+        <email>dorian@example.com</email>
+    </personalInfo>
+    
+    <education>
+        <institution>Penn State Behrend</institution>
+        <degree>Bachelor of Science</degree>
+        <field>Marketing and MIS</field>
+        <status>Current Student</status>
+    </education>
+    
+    <skills>
+        <skill>HTML</skill>
+        <skill>CSS</skill>
+        <skill>Git and GitHub</skill>
+        <skill>Social Media Marketing</skill>
+        <skill>Data Analysis Basics</skill>
+    </skills>
+    
+    <experience>
+        <job>
+            <title>Social Media Marketing Intern</title>
+            <description>Created social media content and helped promote business events and specials.</description>
+        </job>
+    </experience>
+    
+    <projects>
+        <project>
+            <name>Personal Portfolio Website</name>
+            <description>Built a personal website using HTML, CSS, and GitHub Pages.</description>
+        </project>
+        
+        <project>
+            <name>Digital Humanities Data Project</name>
+            <description>Created visual data tracking and analysis assignments.</description>
+        </project>
+    </projects>
+    
+</resume>
