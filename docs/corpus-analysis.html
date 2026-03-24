@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+  <html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+      <title>Dorian Bailey | Corpus Analysis</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <style>
+          .corpus-section {
+              background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 2px 2px 6px rgba(0,0,0,0.15);
+}
+        .screenshot-block {
+                      background-color: #f0f4f8;
+                      border-left: 4px solid steelblue;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+}
+        .screenshot-block img {
+                      width: 90%;
+            max-width: 700px;
+            display: block;
+            margin: 10px auto;
+            border: 1px solid #ccc;
+              }
+        .placeholder-img {
+                          width: 90%;
+            max-width: 700px;
+            height: 250px;
+            background-color: #d0dce8;
+                          display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px auto;
+            border: 2px dashed steelblue;
+            color: #555;
+            font-style: italic;
+            font-size: 0.95em;
+}
+        h2 { color: #1a3a5c; }
+        h3 { color: #2e5f8a; }
+        .corpus-label {
+                      display: inline-block;
+            background: steelblue;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            margin-bottom: 8px;
+}
+        a { color: #1a5276; }
+    </style>
+      </head>
+      <body>
+          <h1>Dorian Bailey</h1>
+          <nav>
+              <a href="index.html">Home</a> |
+              <a href="about.html">About</a> |
+              <a href="resume.html">Resume</a> |
+              <a href="gallery.html">Gallery</a> |
+              <a href="reflection.html">Reflection</a> |
+              <a href="corpus-analysis.html">Corpus Analysis</a> |
+              <a href="https://github.com/dorianbailey/DBPortfolio">GitHub Repo</a>
+          </nav>
+
+          <section class="corpus-section">
+              <h2>Corpus Analysis: Inaugural Addresses vs. State of the Union Speeches</h2>
+        <p>
+            For this corpus analysis project, I am comparing two collections of U.S. presidential speech texts:
+            <strong>Presidential Inaugural Addresses (1789&#8211;2025)</strong> and
+                  <strong>State of the Union Addresses</strong>. Both corpora come from the
+            <a href="https://github.com/newtfire/introDH-Hub/tree/master/textFiles" target="_blank">introDH-Hub text collections</a>
+            assembled for this course.
+              </p>
+              <p>
+                  These two speech types are interesting to compare because they serve very different rhetorical purposes.
+                  Inaugural addresses are ceremonial, visionary, and meant to unite the country under a new (or continuing)
+            administration. State of the Union addresses are more policy-focused, responding to current events and
+            legislative priorities. By running n-gram and word frequency analysis on both corpora, we can see how
+            the <em>language of aspiration</em> in inaugurals differs from the <em>language of governance</em>
+            in State of the Union speeches.
+              </p>
+              <p>
+                  You can view the raw text files used for this analysis in the
+            <a href="https://github.com/dorianbailey/DBPortfolio/tree/main/textCorpora" target="_blank">textCorpora directory</a>
+                  of my GitHub repo.
+              </p>
+          </section>
+
+          <section class="corpus-section">
+              <h2>Voyant Tools Analysis</h2>
+        <p>
+            I used <a href="https://voyant-tools.org" target="_blank">Voyant Tools</a> to explore word frequencies,
+                  word clouds (Cirrus), and term clusters across both corpora. Below are screenshots and observations
+            from the Voyant analysis.
+        </p>
+
+        <h3><span class="corpus-label">Corpus 1</span> Inaugural Addresses &#8212; Cirrus Word Cloud</h3>
+        <div class="screenshot-block">
+            <img src="images/inaugural-wordcloud.png" alt="Voyant Cirrus word cloud for Presidential Inaugural Addresses" />
+            <p>
+                The Cirrus word cloud for the inaugural addresses corpus shows that words like
+                <strong>government</strong>, <strong>nation</strong>, <strong>people</strong>,
+                <strong>world</strong>, and <strong>freedom</strong> dominate. This reflects the
+                ceremonial and aspirational tone of inaugural speeches, which consistently appeal
+                to broad national values and ideals. The prominence of <em>freedom</em> and
+                <em>people</em> suggests that presidents, across all eras, frame their opening
+                address as a covenant with the citizenry and a recommitment to foundational principles.
+            </p>
+        </div>
+
+        <h3><span class="corpus-label">Corpus 2</span> State of the Union &#8212; Cirrus Word Cloud</h3>
+        <div class="screenshot-block">
+            <img src="images/sotu-wordcloud.png" alt="Voyant Cirrus word cloud for State of the Union Addresses" />
+            <p>
+                The State of the Union word cloud looks noticeably different. Words like
+                <strong>congress</strong>, <strong>federal</strong>, <strong>law</strong>,
+                <strong>program</strong>, and <strong>year</strong> appear far more prominently
+                compared to the inaugural corpus. This makes sense: State of the Union speeches
+                are working documents that address specific legislation, budgets, and policy
+                proposals. The language is more institutional and less idealistic than inaugural rhetoric.
+                  </p>
+        </div>
+
+        <h3>Comparing the Two Word Clouds</h3>
+        <div class="screenshot-block">
+            <img src="images/voyant-comparison.png" alt="Side-by-side Voyant comparison of both corpora" />
+                  <p>
+                      Placing the two word clouds side by side highlights a core contrast: inaugural addresses
+                center on abstract ideals (<em>freedom</em>, <em>nation</em>, <em>world</em>), while
+                      State of the Union speeches center on concrete institutions and processes
+                (<em>congress</em>, <em>law</em>, <em>program</em>). Both corpora share the word
+                <strong>government</strong> as a top term, but the surrounding vocabulary tells very
+                different stories about presidential communication.
+                  </p>
+        </div>
+    </section>
+
+    <section class="corpus-section">
+        <h2>AntConc N-Gram Analysis</h2>
+        <p>
+                  I used AntConc to explore n-gram patterns in both corpora, starting with 3-grams and adjusting
+            from there. N-grams reveal the most common multi-word phrases, which can expose the formulaic
+            language politicians rely on.
+        </p>
+
+        <h3><span class="corpus-label">Corpus 1</span> Inaugural Addresses &#8212; Top 3-Grams</h3>
+              <div class="screenshot-block">
+                  <img src="images/inaugural-ngrams.png" alt="AntConc 3-gram results for Inaugural Addresses" />
+                  <p>
+                      The most frequent 3-grams in the inaugural corpus include phrases like
+                <strong>&#8220;the United States&#8221;</strong>, <strong>&#8220;of the people&#8221;</strong>,
+                      and <strong>&#8220;to the people&#8221;</strong>. These reflect the rhetorical conventions
+                of inaugural speeches: direct address to citizens, invocations of national identity, and
+                      constitutional framing. Phrases with <em>people</em> appear repeatedly, reinforcing that
+                inaugurals are fundamentally speeches <em>to</em> and <em>about</em> the public.
+            </p>
+        </div>
+
+        <h3><span class="corpus-label">Corpus 2</span> State of the Union &#8212; Top 3-Grams</h3>
+              <div class="screenshot-block">
+                  <img src="images/sotu-ngrams.png" alt="AntConc 3-gram results for State of the Union Addresses" />
+                  <p>
+                      The State of the Union 3-grams look markedly different, with phrases like
+                <strong>&#8220;the Congress of&#8221;</strong>, <strong>&#8220;I recommend that&#8221;</strong>,
+                      and <strong>&#8220;the United States&#8221;</strong> appearing frequently. The phrase
+                &#8220;I recommend that&#8221; is particularly telling&#8212;it almost never appears in
+                inaugurals but is a staple of State of the Union speeches, where the president is
+                actively proposing legislation to Congress.
+            </p>
+        </div>
+
+        <h3>KWIC (Keyword in Context) &#8212; Tracing &#8220;the United States&#8221;</h3>
+              <div class="screenshot-block">
+                  <img src="images/kwic-comparison.png" alt="KWIC view of 'the United States' in both corpora" />
+                  <p>
+                      When I traced the phrase <strong>&#8220;the United States&#8221;</strong> across both
+                corpora using AntConc&#39;s KWIC view, an interesting pattern emerged. In the inaugural
+                corpus, &#8220;the United States&#8221; tends to appear in phrases about national identity
+                and global standing (e.g., &#8220;the United States and the world&#8221;). In the State
+                of the Union corpus, the same phrase clusters around policy and institutional references
+                (e.g., &#8220;the United States government&#8221;, &#8220;the United States Congress&#8221;).
+                The same three words carry entirely different rhetorical weight depending on the speech type.
+                              </p>
+                          </div>
+                      </section>
+
+                      <section class="corpus-section">
+                          <h2>Key Findings and Conclusions</h2>
+                          <p>
+                              This comparative corpus analysis reveals that presidential rhetoric is not monolithic &#8212; it
+            shifts substantially depending on the occasion. Inaugural addresses use the language of values,
+            ideals, and national identity to establish a president&#39;s vision and build emotional connection
+            with citizens. State of the Union addresses, by contrast, use institutional language oriented
+            toward Congress, policy, and governance.
+                          </p>
+                          <p>
+                              Even when the same phrases appear in both corpora (like &#8220;the United States&#8221;), the
+            surrounding context reveals fundamentally different rhetorical goals. This is exactly the kind
+            of discovery that n-gram and KWIC analysis makes visible: patterns that would be nearly
+            impossible to detect by reading hundreds of speeches manually become clear at a glance through
+            computational text analysis.
+                          </p>
+        <p>
+            Future analysis could explore how individual presidents&#39; language compares within each
+            corpus &#8212; for example, whether modern inaugurals (post-1980) differ significantly from
+            19th-century ones in vocabulary, or how State of the Union rhetoric changed after major
+            national crises.
+                          </p>
+                      </section>
+
+                  </body>
+                  </html>
